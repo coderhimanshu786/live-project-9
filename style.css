@@ -1,0 +1,330 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+/* --------header section------ */
+header {
+  background-color: #3400ff;
+  height: 500px;
+}
+
+nav {
+  float: right;
+  margin-right: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.nav-item {
+  color: white;
+  margin-right: 20px;
+}
+
+.nav-item-active {
+  background-color: #fff;
+  padding: 2px 10px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.logo {
+  margin: 20px;
+}
+
+.header-text {
+  float: left;
+  color: #fff;
+  font-size: 30px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.header-image {
+  float: right;
+}
+
+.companies {
+  margin: 20px;
+}
+
+.company-items {
+  text-decoration: none;
+  color: black;
+  padding: 50px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+/* ---------Middle Page section------- */
+.api-heading {
+  margin-left: 70px;
+  margin-top: 80px;
+  font-weight: bolder;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.card {
+  width: 500px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.card-active {
+  width: 450px;
+  margin-right: 50px;
+  background-color: rgb(221, 221, 229);
+  box-shadow: 7px 5px 10px blue;
+  padding-right: 10px;
+  padding-left: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.blog-heading {
+  margin-left: 70px;
+  margin-top: 90px;
+  cursor: pointer;
+}
+
+.blog-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.blog-card {
+  width: 650px;
+  border-radius: 20px;
+  box-shadow: 7px 5px 10px blue;
+}
+
+.blog-content {
+  margin-left: 300px;
+  margin-top: -250px;
+}
+
+.blog-bottom {
+  margin-left: 280px;
+  position: relative;
+  top: 50px;
+
+}
+
+.blog-author {
+  position: relative;
+  left: 170px;
+  font-weight: bold;
+}
+
+.faq-content {
+  margin-top: 80px;
+  margin-left: 70px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h4 {
+  margin-top: 30px;
+}
+
+button {
+  margin-top: 300px;
+  margin-left: -180px;
+  background-color: #3400ff;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: larger;
+
+}
+
+div.faq-image {
+  float: right;
+  margin-top: -580px;
+
+}
+
+.download-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 60px;
+
+}
+
+.download-content {
+  display: flex;
+  flex: row;
+  font-weight: bold;
+}
+
+span {
+  font-weight: lighter;
+}
+
+div.download-email {
+  float: left;
+  font-weight: bold;
+}
+
+input {
+  background-color: #f5f5f5;
+  height: 50px;
+  width: 250px;
+  padding-left: 60px;
+  border-radius: 50px;
+  border: 0;
+  font-weight: bold;
+  position: relative;
+  top: -250px;
+  margin-left: 620px;
+  padding-right: 110px;
+}
+
+button {
+  height: 50px;
+  border-radius: 50px;
+  width: 200px;
+  position: relative;
+  top: -250px;
+  left: 150px;
+}
+button:hover {
+  background-color: rgb(41, 107, 214);
+}
+
+/* --------Footer Section----- */
+.footer-section {
+  display: flex;
+  flex: row;
+  background-color: #3400ff;
+  height: 250px;
+
+}
+
+.footer-logo {
+  margin: 80px;
+}
+
+.list {
+  margin-top: -80px;
+  margin-left: 70px;
+}
+
+.list-items {
+  text-decoration: none;
+  display: inline-flex;
+  color: #fff;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer-right {
+  display: flex;
+  flex: row;
+  background-color: #3400ff;
+  height: 40px;
+}
+
+.footer-logos {
+  position: relative;
+  top: 80px;
+  left: 628px;
+  margin-left: 30px;
+}
+
+.logos-list {
+  margin-top: 120px;
+  margin-left: 400px;
+  padding-left: 40px;
+}
+
+  
+  /* ------media section------  */
+@media screen and (min-width: 1200px) {
+    .left-section{
+     width: 100%;
+    }
+ }
+ /* -----media-2 for small devices---- */
+ @media screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+      header {
+        background-color: #3400ff;
+         height: 900px;
+         width: 710px;
+      }
+      .nav-item {
+        color: white;
+        margin-right: 13px;
+      }
+      .nav-item-active {
+        margin: 30px;
+      }
+      .header-text {
+        font-size: 22px;
+      }
+      .company-items {
+        font-weight: bold;
+        font-size: larger;
+      }
+      
+.blog-cards {
+  display: flex;
+  flex-direction: column;
+}
+.faq-content {
+  width: 160%;
+}
+div.faq-image {
+  width: 370px;
+}
+button {
+  margin-left: -25px;
+  border-radius: 0%;
+  font-size: larger;
+  opacity: 1;
+  transition: 0.2s;
+}
+.footer-section {
+  display: inline-flex;
+  flex: row;
+  background-color: #3400ff;
+  background-size: 100%;
+  height: 250px;
+  width: 620px;
+}
+.footer-right {
+  width: 120px;
+}
+    }
